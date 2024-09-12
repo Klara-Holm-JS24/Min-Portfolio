@@ -1,0 +1,52 @@
+:root {
+    --offwhite: #e1e0dd;
+}
+
+html {
+    background-color: var(--offwhite);
+}
+
+body > header {
+    padding: 3rem 0 1rem 3rem;
+}
+
+h1, h2 {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+section {
+    border-radius: 2em;
+    border: 2px solid grey;
+    padding: 0 1rem;
+    margin: 0.5rem 0;
+    background-color: antiquewhite;
+}
+
+.side-by-side {
+    display: flex;
+    gap: 0.5rem;
+    section {
+        flex: 1;
+    }
+}
+
+li {
+    list-style: square;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(90, 81, 214);
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+}
+
+a:hover {
+    background-color: grey;
+    color: antiquewhite;
+}
